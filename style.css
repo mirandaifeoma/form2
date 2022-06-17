@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-container {
+    width: 90%;
+    background-image: url(/image.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.53);
+    background-blend-mode: darken;
+    margin: auto;
+}
+
+.form {
+    width: 100%;
+    padding: 40px 70px;
+}
+
+.form1 {
+    width: 40%;
+    float: left;
+    display: inline-block;
+    padding: 10rem 0;
+    color: white;
+}
+
+.form1 h1:nth-child(1) {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.form1 p:nth-child(2) {
+    line-height: 25px;
+}
+
+.form2 {
+    width: 50%;
+    margin-left: 50px;
+    display: inline-block;
+    /* background-color: aquamarine; */
+}
+
+.div1 {
+    color: white;
+    background-color: rgb(136, 41, 224);
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.334);
+}
+
+.div1-span {
+    color: rgba(255, 255, 255, 0.592);
+}
+
+.div2 {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.div2-form {
+    padding: 50px;
+}
+
+.relative {
+    position: relative;
+}
+
+input {
+    border: 2px solid rgb(228, 168, 168);
+    padding: 15px 0;
+    border-radius: 5px;
+    margin: 15px 0 5px 0;
+    color: rgb(241, 136, 136);
+}
+
+.exclamation {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(240, 143, 143);
+    border-radius: 3rem;
+    display: inline;
+    position: absolute;
+    top: 27px;
+    right: 20px;
+}
+
+.p {
+    color: rgb(241, 136, 136);
+    font-size: 13px;
+    text-align: right;
+}
+
+.button {
+    margin: 15px 0;
+    padding: 15px 115px;
+    background-color: rgba(75, 185, 102, 0.727);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.404);
+}
+
+.p2 {
+    font-size: 12px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.305);
+}
+
+.span2 {
+    color: rgb(241, 136, 136);
+}
